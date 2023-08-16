@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <script src="script.js"></script> 
+    <title>Mini Project</title>
+</head>
+<body>
+    <div class="body">
+    <!-- Header -->
+    <header>
+        <div>
+            <h1 class="judul">Welcome to Katik</h1>
+            <p class="judul">Hi Fellas 👋 </p>
+            <p class="judul">This is simple apps which have function to calculate area and circumference of triangle</p>
+        </div>
+        <div class="sub-header">
+            <a class="t" href="#aTriangle">Area of Triangle </a>
+            <a class="t" href="#cTriangle">Circumference of Triangle</a>
+        </div>
+    </header> 
+    <!-- Content -->
+    <!-- Luas Segitiga -->
+    <section>
+        <div id="aTriangle" class="section">
+            <div class="sub-sec">
+                <h1 class="judul-s">Area of Triangle</h1>
+                <img src="./assets/triangle.png" alt="" class="img">
+                <p>Formula for calculating triangle area (cm):</p>
+                <p class="equation">A = 1/2 x h x b</p>
+                <p>Whiches : </p>
+                <ul class="sub-eq">
+                    <li>A = area of triangle</li>
+                    <li>b = base length of triangle</li>
+                    <li>h = height of triangle</li>
+                </ul>
+            </div>
+            <hr>
+            <div>
+                <h3 class="judul">Calculate the Area of The Triangle</h3>
+                <div class="input">
+                    <label for="hInput">Height of Triangle (h)</label> 
+                    <input type="number" id="hInput" placeholder="value">
+                    <label for="blInput">Base length of Triangle (b)</label>
+                    <input type="number" id="blInput" placeholder="value">
+                    <label for="resultA"></label>
+                    <button id="calcAButton">Calculate</button>
+                    <button id="rAButton">Reset</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Keliling Segitiga -->
+    <section>
+        <div id="cTriangle" class="section">
+            <div class="sub-sec">
+                <h1 class="judul-s">Circumference of Triangle</h1>
+                <img src="./assets/triangle.png" alt="" class="img">
+                <p>Formula for calculating triangle circumference (cm):</p>
+                <p class="equation">C = s1 + s2 + s3</p>
+                <p>Whiches : </p>
+                <ul class="sub-eq">
+                    <li>C = circumference of triangle</li>
+                    <li>s1 = side 1</li>
+                    <li>s2 = side 2</li>
+                    <li>s3 = side 3</li>
+                </ul>
+            </div>
+        <hr>
+        <div>
+            <h3 class="judul">Calculate the Circumference of The Triangle</h3>
+            <div class="input">
+                <label for="s1Input">Side 1 (s1)</label> 
+                <input type="number" id="s1Input" placeholder="value">
+                <label for="s2Input">Side 2 (s2)</label>
+                <input type="number" id="s2Input" placeholder="value">
+                <label for="s3Input">Side 3 (s3)</label>
+                <input type="number" id="s3Input" placeholder="value">
+                <label for="resultC"></label>
+                <button id="calcCButton">Calculate</button>
+                <button id="rCButton">Reset</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    </div>
+</body>
+</html>
