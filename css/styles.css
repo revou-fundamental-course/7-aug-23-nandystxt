@@ -1,6 +1,4 @@
 body {
-  margin: auto;
-  max-width: 425px;
   font-family: Roboto;
   font-weight: 400;
 }
@@ -98,4 +96,51 @@ label {
 input {
   display: block;
   margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    display: flex;
+  }
+
+  .sub-sec {
+    margin: auto;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .t:hover {
+    background-color: #ffc6ac;
+    cursor: pointer;
+    padding: 5px 0px 5px 0px;
+    text-decoration: none;
+  }
+
+  .judul-s {
+    display: none;
+  }
+
+  .judul-l {
+    text-align: center;
+    background-color: #ffc6ac;
+    padding: 10px 10px 10px 10px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max1-width: 425px) {
+  .judul-l {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .t {
+    display: none;
+  }
 }
