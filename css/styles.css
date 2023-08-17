@@ -1,0 +1,157 @@
+body {
+  font-family: Roboto;
+  font-weight: 400;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.t {
+  text-decoration: none;
+}
+
+.body {
+  background-color: #f8fdcf;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  border: solid;
+}
+
+.section {
+  margin: 15px;
+  background-color: #fff6dc;
+  border-radius: 10px;
+  box-shadow: 4px 4px 3px #888888;
+  border-style: solid;
+  border-color: #ffc6ac;
+}
+
+.sub-sec {
+  padding: 10px;
+}
+
+header {
+  width: 100%;
+  background-color: #fff6dc;
+  border-radius: 10px;
+  border-color: #ffc6ac;
+  border-style: solid;
+  overflow: hidden;
+}
+
+.sub-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.t:hover {
+  background-color: #ffc6ac;
+  cursor: pointer;
+  padding: 5px 0px 5px 0px;
+  text-decoration: none;
+}
+
+.judul {
+  padding: 0px 5px 0px 5px;
+  margin: auto;
+  width: full;
+  text-align: center;
+}
+
+.judul-s {
+  text-align: center;
+  background-color: #ffc6ac;
+  padding: 10px 10px 10px 10px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.img {
+  width: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.equation {
+  text-align: center;
+  font-weight: bold;
+}
+
+.sub-eq {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+}
+
+hr {
+  border-top: 2px solid black;
+}
+
+.input {
+  padding: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  display: block;
+  margin-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+}
+
+@media (max-width: 767.9px) {
+  .judul-l {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .section {
+    display: flex;
+  }
+
+  .sub-sec {
+    margin: auto;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .t:hover {
+    background-color: #ffc6ac;
+    cursor: pointer;
+    padding: 5px 0px 5px 0px;
+    text-decoration: none;
+  }
+
+  .judul-s {
+    display: none;
+  }
+
+  .judul-l {
+    text-align: center;
+    background-color: #ffc6ac;
+    padding: 10px 10px 10px 10px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 3px #888888;
+  }
+}
+
+@media (min-width: 1024px) {
+  .t {
+    display: none;
+  }
+}
