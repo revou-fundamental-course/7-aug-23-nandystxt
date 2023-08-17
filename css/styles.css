@@ -104,6 +104,10 @@ input {
   margin-bottom: 5px;
 }
 
+footer {
+  text-align: center;
+}
+
 @media (max-width: 767.9px) {
   .judul-l {
     display: none;
